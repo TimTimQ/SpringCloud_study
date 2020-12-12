@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      name: configclient  #远程仓库的配置文件名
+      label: master  #配置文件所在的分支
+      discovery:
+        enabled: true  #是否开启Config服务发现支持
+        service-id: configserver  #配置中心在 eurekaServer 上注册的名称
+eureka:
+  client:
+    service-url:
+      defaulZone: http://localhost:8761/eureka/

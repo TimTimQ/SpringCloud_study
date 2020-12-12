@@ -22,6 +22,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ribbon" target="1.8" />
+      <module name="zipkinServer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +30,7 @@
       <module name="Consumer" options="-parameters" />
       <module name="SpringCloud_study" options="-parameters" />
       <module name="Zuul" options="-parameters" />
+      <module name="configClient" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaClient" options="-parameters" />
@@ -39,6 +41,8 @@
       <module name="nativeConfigServer" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkinClient" options="-parameters" />
+      <module name="zipkinServer" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
