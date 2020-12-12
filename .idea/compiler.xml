@@ -29,6 +29,7 @@
       <module name="Consumer" options="-parameters" />
       <module name="SpringCloud_study" options="-parameters" />
       <module name="Zuul" options="-parameters" />
+      <module name="configServer" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaClient" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
