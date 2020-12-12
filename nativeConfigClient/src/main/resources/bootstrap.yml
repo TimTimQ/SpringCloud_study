@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: dev   #通过拼接 name + active: 查到到configServer下的shared的configclient-dev.yml
+  cloud:
+    config:
+      uri: http://localhost:8762 #configServer的访问地址
+      fail-fast: true  #优先判断 configServer 获取是否正常
