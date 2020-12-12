@@ -24,6 +24,9 @@
         <module>configClient</module>
         <module>zipkin</module>
         <module>zipkinClient</module>
+        <module>zipkinServer</module>
+        <module>zipkinServer</module>
+        <module>zipkin</module>
     </modules>
 
     <parent>

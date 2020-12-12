@@ -41,6 +41,7 @@
       <module name="nativeConfigServer" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
       <module name="zipkinClient" options="-parameters" />
       <module name="zipkinServer" options="-parameters" />
       <module name="zuul" options="-parameters" />
